@@ -1,0 +1,119 @@
+td{
+    padding: 20px;
+    text-align: center;
+    
+}
+table{
+    size: 50px;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:0px;
+}
+.plus-button1,.plus-button{
+    height: 40px;
+    width: 40px;
+    border-radius:  100%;
+    font-size: 25px;
+    padding: 0%;
+    border: 0px;
+}
+.brdr{
+    height: 70px;
+    width: 300px;
+    margin: 25px 30px;
+    padding-top: 45px;
+    text-align: center;
+}
+/* first row */
+.color-green,.color-green2{
+    background-color: #26be96;
+    color: white;
+}
+.color-grey,.color-grey2
+{
+    background-color: #e5ebed;
+    color: #44717f;
+}
+
+.color-orange,.color-orange2{
+    background-color: #ee8363;
+    color: white;
+}
+.color-white,.color-white2,.color-white1{
+    color: #26be96;
+    background-color: white;
+}
+#click1{
+    border: 2px solid #26be96;
+    color:#26be96;
+}
+#click2{
+    border: 2px solid grey;
+    background-color: white;
+    color: grey;
+}
+#click3{
+    background-color: white;  
+    border: 2px solid #ee8363;
+    color: #ee8363;
+}
+#click1{
+    background-color:#26be96;
+     color:white;
+      border: 2px solid white;
+}         
+.plus-button1:hover,.color-green:hover,.color-grey:hover,.color-orange:hover,.color-white:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+.plus-button1:active{
+    background-color: #60e9c5;
+}
+.color-green:active{
+    background-color: #60e9c5;
+}
+.color-orange:active{
+    background-color: #f3b7a4;
+}
+.color-white:active{
+    background-color:#c8e0da ;
+}
+.color-grey:active{
+    background-color: #bbc4c1;
+}
+.sec-1:hover{
+    box-shadow: 5px 5px #26be96;
+}
+#click1:active{
+    background-color: rgb(0, 128, 41);
+    color: white;
+}
+.sec-2:hover{
+    box-shadow: 5px 5px #44717f;
+}
+#click2:active{
+    background-color: grey;
+    color: black;
+}
+.sec-4:hover{
+    box-shadow: 5px 5px #e5ebed;
+}
+#click4:active{
+    background-color: white;
+    color: green;
+}
+.sec-3:hover{
+    box-shadow: 5px 5px #ee8363;
+}
+#click3:active{
+    background-color: orange;
+    color: white;
+}
+.row-3,.row-6{
+    cursor: not-allowed;
+    
+}
