@@ -1,0 +1,97 @@
+#brand{
+    margin-left: 30px;
+    position: relative;
+    top: 0px;
+    font-size: 45px;
+    color: #1f2937;
+}
+a{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    color: #495260;
+}
+#a1{
+    left: 290px;
+    top: 45px;
+}
+#a2{
+    left: 400px;
+    top: 45px;
+}
+#a3{
+    left: 560px;
+    top: 45px;
+}
+#a4{
+    left: 670px;
+    top: 45px;
+}
+#a5{
+   left: 790px;
+   top: 45px;
+}
+#contact-btn{
+    position: absolute;
+    left: 950px;
+    top: 36px;
+    font-size: 22px;
+    height: 37px;
+    width: 140px;
+    border-radius: 5px;
+    color: #707783;
+    border: 1px solid #f4f5f6;
+}
+#mid{
+     margin-top: 120px;
+     font-size: 60px;
+     margin-left: 30px;
+}
+ul {
+    list-style-type: none;
+  }
+ul li:before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+     background-size: 20px;
+    background-image: url("./Assets/tick.jpg");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    position: absolute;
+    left: 30px;
+  }
+li{
+    margin-top: 40px;
+    margin-left: 15px;
+    color: #495260;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    bottom: 350px;
+    left: 700px;
+}
+input{
+    margin-left: 30px;
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+#ju{
+    border-radius: 5px;
+    height: 25px;
+    width: 65px;
+    border: 2px solid #3b82f6;
+    position: relative;
+    right: 75px;
+    bottom: 0px;
+    color: #fafcff;
+    background-color: #3b82f6;
+}
