@@ -1,0 +1,71 @@
+#first-image{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+}
+h1{
+    position: absolute;
+    top: 0px;
+    left: 75px;
+}
+.click{
+    list-style: none;
+    position: relative;
+    float: right;
+    margin: 40px;
+    right: 550px;
+    bottom: 87px;
+    font-size: 20px;
+}
+#person{
+    position: absolute;
+    right: 13px;
+    top: 23px;
+}
+#bell{
+    position: absolute;
+    right: 70px;
+    top: 27px;
+}
+#srch-box{
+    position: absolute;
+    right: 130px;
+    top: 25px;
+    height: 32px;
+    width: 300px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    z-index: 2;
+    font-size: 15px;
+    color: #979ca7;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+#srch-btn{
+    position: absolute;
+    right: 390px;
+    top: 29.5px;
+    z-index: 4;
+    height: 24px;
+}
+a{
+    text-decoration: none;
+    color: #9196a0;
+}
+li:hover{
+    font-weight: bold;
+    border-bottom: 5px solid #6800e8;
+    height: 39px;
+}
+div#bottom{
+    background-color: #f3f4f6;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    height: 850px;
+    position: absolute;
+    left: 0px;
+    border-top: 2px solid lightgray;
+}
