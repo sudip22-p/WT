@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested ordered and unordered list</title>
+    <style>
+        h1{
+            text-align:center;
+            font-weight: bold;
+            text-shadow: 2px 4px 3px #ede3e3;
+            color: rgb(252 8 8);
+        }
+        .outer{
+            list-style-type:disc;
+            color: #dee42b
+        }
+        .inner{
+            list-style-type: lower-roman;
+            color: #352178
+        }
+        .outer-t20{
+            list-style:upper-roman;
+            color: #dee42b
+        }
+        .inner-t20{
+            list-style-type: lower-greek;
+            color: #352178
+        }
+        .outer-odi{
+            list-style: square;
+            color: #dee42b
+        }
+        .inner-odi{
+            list-style-type: circle;
+            color: #352178
+        }
+        body{
+            background-image: url(./Assets/background_nested-list.jpg);
+        }
+        table{
+            font-size: 27.5px;
+            letter-spacing: 2px;
+        }
+        div#gray{
+            background-color: gray;
+            margin-left: 190px;
+            margin-right: 190px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        h3{
+            text-decoration: underline;
+            color: #62d949;
+        }
+    </style>
+</head>
+<body>
+    <div id="gray">
+        <header>
+            <h1>England Cricket Board (ECB)</h1>
+        </header>
+        <main>
+            <table>
+                <tr>
+                    <td> 
+                        <div id="test">
+                            <h3>Test best XI</h3>
+                            <ol class="outer">
+                                <li>Bowlers</li>
+                                <ol class="inner">
+                                    <li>James Anderson</li>
+                                    <li>Jack Leach</li>
+                                    <li>Ollie Robinson</li>
+                                    <li>Mark Wood</li>
+                                </ol>
+                                <li>All-rounders</li>
+                                <ol class="inner">
+                                    <li>Ben Stokes(c)</li>
+                                    <li>Liam Livingstone</li>
+                                </ol>
+                                <li>Batters</li>
+                                <ol class="inner">
+                                    <li>Zack Crawley</li>
+                                    <li>Ben Duckett</li>
+                                    <li>Ollie Pope(w)</li>
+                                    <li>Joe Root</li>
+                                    <li>Harry Brook</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="t-20">
+                            <h3>T-20 best XI</h3>
+                            <ul class="outer-t20">
+                                <li>Bowlers</li>
+                                <ol class="inner-t20">
+                                    <li>Adil Rashid</li>
+                                    <li>Mark Wood</li>
+                                </ol>
+                                <li>All-rounders</li>
+                                <ol class="inner-t20">
+                                    <li>Ben Stokes(c)</li>
+                                    <li>Moeen Ali</li>
+                                    <li>Liam Livingstone</li>
+                                    <li>Sam Curran</li>
+                                    <li>Chris Woakes</li>
+                                    <li>David Malan</li>
+                                </ol>
+                                <li>Batters</li>
+                                <ol class="inner-t20">
+                                    <li>Jos Buttler(c)(w)</li>
+                                    <li>Alex Hales</li>
+                                    <li>Harry Brook</li>
+                                </ol>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="odi">
+                            <h3>ODI best XI</h3>
+                            <ul class="outer-odi">
+                                <li>Bowlers</li>
+                                <ul class="inner-odi">
+                                    <li>David Willey</li>
+                                    <li>Adil Rashid</li>
+                                    <li>Reece Topley</li>
+                                </ul>
+                                <li>All-rounders</li>
+                                <ul class="inner-odi">
+                                    <li>Ben Stokes(c)</li>
+                                    <li>Moeen Ali</li>
+                                    <li>Liam Livingstone</li>
+                                    <li>Sam Curran</li>
+                                    <li>David Malan</li>
+                                </ul>
+                                <li>Batters</li>
+                                <ul class="inner-odi">
+                                    <li>Jason Roy</li>
+                                    <li>Jonny Bairstow</li>
+                                    <li>Jos Buttler(c)(w)</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+    </div>
+    </main>
+</body>
+</html>
