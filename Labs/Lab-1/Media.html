@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket audios and videos</title>
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(./Assets/background_nested-list.jpg);
+      }
+      h1 {
+        text-align: left;
+        margin-top: 10px;
+        font-weight: bold;
+        text-shadow: 2px 8px 4.5px black;
+        color: rgb(241, 38, 38);
+      }
+      #Media{
+        margin: 0px 200px;
+        background-color: lightgray;
+      }
+    </style>
+</head>
+<body>
+    <div id="Media">
+        <h1>Enjoy the best cricket song</h1>
+        <audio controls autoplay muted>
+            <source src="./Assets/cric-song.mp3" type="audio/mp3">
+        </audio>
+        <h1>Enjoy the best stadium-view</h1>
+        <video controls loop
+            src="./Assets/cric-video.mp4" type="video/mp4"
+            height="450px" width="900px">
+        </video>
+    </div>
+</body>
+</html>
