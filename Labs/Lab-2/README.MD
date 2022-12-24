@@ -4,7 +4,7 @@
 <b>Flow layout and Positioned layout in CSS:</b>
 <i><ul>
 <li>wrapper with unpressed element</li>
-[!wrapper](./Assets/wrapper-full.gif)
+<img src="./Assets/wrapper-full.gif">
 <li>Designing a circuit </li>
 [!circuit](./Assets/circuit-full_image.png)
 <li>Design a decorative item</li>
