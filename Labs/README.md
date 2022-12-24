@@ -8,6 +8,12 @@
 <li>image, video and audio</li>
 <li>iframe</li>
 </ul><hr><hr><br>
+2:)Flow layout and Positioned layout in CSS:
+<ul>
+<li>wrapper with unpressed element</li>
+<li>Designing a circuit </li>
+<li>Design a decorative item</li>
+</ul><hr><hr><br>
     
 
 
