@@ -1,0 +1,54 @@
+#container{
+    width: 300px;
+    height: 420px;
+    margin: 100px auto;
+    background-color: rgb(126, 103, 160);
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px 3px gold;
+    align-content: center;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+input{
+    height: 100px;
+    width: 280px;
+    padding-right: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: none;
+    font-size: 30px;
+    color: grey;
+    background-color: lightgrey;
+    border: 1px solid white
+}
+body{
+    background-color: rgb(123, 171, 26);
+}
+button{
+    color: blue;
+    background-color: black;
+    border: 2px solid white;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 4px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.spcl{
+    color: rgb(242, 11, 11);
+}
+.equal{
+    color: green;
+    font-size: 24px;
+}
+.specl{
+    color: orange;
+    font-size: 24px;
+}
+button:active{
+    background-color: crimson;
+    color: black;
+}
