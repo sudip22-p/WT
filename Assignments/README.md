@@ -5,4 +5,6 @@
       2:)Create a web document to illustrate <b>color, text formatting, and background </b><i>properties</i> using CSS.<br>
       3:)Create a web document to illustrate <b> Buttons, Border, Color and Pseudo class </b> as per given figure using CSS.
       <div>
-      4:)Design <b> Navbar, CTA, Hero section </b> and <b>404 page</b>.
+      4:)Design <b> Navbar, CTA, Hero section </b> and <b>404 page</b>.<br>
+      5:)Design a <b>simple calculator</b> using HTML,CSS,&JS.<br>
+   </div>
