@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reverse the Array</title>
+    <style>
+      h1 {
+        color: rgb(18, 19, 17);
+        height: 30px;
+        width: 300px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Check The Console</h1>
+    <script>
+      let data = [
+        "C",
+        "CPP",
+        "JS",
+        "JAVA",
+        "PYTHON",
+        "C#",
+        "HTML",
+        "CSS",
+        "DART",
+      ];
+      console.log("data is:" + data);
+      let reverse = [];
+      for (let i = 0; i < data.length; i++) {
+        reverse[data.length - i - 1] = data[i];
+      }
+      console.log("reverse of given data is:" + reverse);
+    </script>
+  </body>
+</html>

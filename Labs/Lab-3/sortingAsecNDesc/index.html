@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascending and Descending Order</title>
+    <style>
+        h1 {
+          color: rgb(18, 19, 17);
+          height: 30px;
+          width: 300px;
+          margin: auto;
+          position: relative;
+          top: 100px;
+        }
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Check The Console</h1>
+    <script>
+        let list=[8,9,0,2,1,7,6,3,5,4];
+        let temp;
+        let asc=[];
+        let desc=[];
+        console.log("given list:");
+        console.log(list);
+        asc=list;
+        console.log("Ascending Order : ")
+        for(let j=0;j<asc.length;j++)
+        {
+            for(let i=j+1;i<asc.length;i++)
+            {
+                if(asc[j]>asc[i]){
+                    temp=asc[j];
+                    asc[j]=asc[i];
+                    asc[i]=temp;
+                }
+            }
+        }
+        console.log(asc);
+        //Descending
+        console.log("Descending Order : ")
+        for(let i=0;i<list.length;i++)
+        {
+            desc[list.length-i-1]=asc[i];
+        }
+        console.log(desc);
+    </script>
+    
+</body>
+</html>
