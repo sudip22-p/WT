@@ -1,4 +1,4 @@
-# Lab no-2
+# Lab no-3
 
 <h1>Topic</h1>
 <b>JS Fundamentals:</b>
