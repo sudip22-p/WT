@@ -1,7 +1,7 @@
 # Lab no-3
 
 <h1>Topic</h1>
-<b>JS Fundamentals:</b>
+<b>JS Fundamentals :</b>
 <hr><hr>
 <h1>Theory</h1>
 <h3>To Do List</h3>
