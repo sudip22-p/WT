@@ -17,7 +17,7 @@
 <li>Designing a circuit </li>
 <li>Design a decorative item</li>
 </ul><hr><hr><br>
-2:)JS Fundamentals:
+3:)JS Fundamentals:
 <ul>
 <li>Reverse the string</li>
 <li>Palindrome check</li>
