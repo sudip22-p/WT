@@ -8,3 +8,5 @@
       4:)Design <b> Navbar, CTA, Hero section </b> and <b>404 page</b>.<br>
       5:)Design a <b>simple calculator</b> using HTML,CSS,&JS.<br>
    </div>
+      6:)Explain <b>event bubbling and capture</b>  with an example.<br>
+   </div>
