@@ -8,7 +8,7 @@
  <li>If capture flag is false (default) ,event bubbling happens.  </li>
 
  <hr><hr>
-![event](./Assets/event.png)
+<img src="./Assets/event.png">
  <hr><hr>
  <li>In Event Capturing, an event starts at the least specific element and then flows downwards towards the most specific element. </li>
  <li>Capturing happens top-to-bottom.  </li>
