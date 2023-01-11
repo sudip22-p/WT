@@ -2,4 +2,46 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+button{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 40px;
+    top: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: orange;
+    color: lightyellow;
+}
+#parent-1,
+#parent-2{
+    background-color: skyblue;
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+    padding-bottom: 50px;
+}
+#parent-1{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+#parent-2{
+    position: absolute;
+    top: 20px;
+    right: 150px;
+}
+#child-1,
+#child-2{
+    background-color: green;
+    height:100px;
+    width: 200px;
+    margin: auto;
+    padding-top: 20px;
+}
+h1{
+    font-style: italic;
+    color: blue;
 }
