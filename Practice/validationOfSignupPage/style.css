@@ -1,0 +1,32 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(50 39 75);
+}
+div {
+    margin-bottom: 1rem;
+}
+div#main_wrapper{
+    height: 500px;
+    width: 450px;
+    padding-top: 100px;
+    margin: auto;
+}
+div#box-for-style{ 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px lightgrey, -4px 4px  darkgrey;
+    background-color: grey;
+}
+input{
+    height: 20px;
+}
+#cmnt{
+    height: 50px;
+    width: 350px;
+    color: brown;
+}
+h1,h3{
+    position: relative;
+    left: 100px;
+}

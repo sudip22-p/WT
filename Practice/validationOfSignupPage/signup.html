@@ -1,87 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>User registration</title>
-	<style type="text/css">
-		div {
-			margin-bottom: 1rem;
-		}
-	</style>
-</head>
-<body>
-<form action="process.html" id="signup-form">
-	<div>
-		<label for="name">Name:</label>
-		<input type="text" id="name" name="name" />
-	</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>User registration</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main_wrapper">
+		<h1>Hi, There! </h1>
+		<h3>Fill the form to write the cmnt</h3>
+      <div id="box-for-style">
+        <form action="process.html" id="signup-form">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+          </div>
 
-	<div>
-		<label for="username">Username:</label>
-		<input type="text" name="username" id="username" />
-	</div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="number" name="phone" id="phone" />
+          </div>
 
-	<div>
-		<label for="password">password:</label>
-		<input type="password" name="password" id="password" />
-		<input type="checkbox" /> Show password
-	</div>
+          <div>
+            <label for="password">password:</label>
+            <input type="password" name="password" id="password" />
+            <input type="checkbox" /> Show password
+          </div>
 
-	<div>
-		<label for="confirm-password">Confirm Password:</label>
-		<input type="password" name="confirm_password" id="confirm-password" />
-	</div>
+          <div>
+            <label for="confirm-password">Confirm Password:</label>
+            <input
+              type="password"
+              name="confirm_password"
+              id="confirm-password"
+            />
+          </div>
 
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+		  <div>
+			<label for="cmnt">Comment here:</label><br>
+			<input type="text" name="cmnt" id="cmnt" placeholder="write your suggestion/queries/related comment here">
+		  </div>
+          <div>
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
 
-	<div>
-		<label for="email">Email:</label>
-		<input type="email" name="email" id="email" />
-	</div>
+    <script type="text/javascript">
+      const nameEl = document.querySelector("input[name=name]");
+      const usernameEl = document.querySelector("input[name=username]");
+      const passwordEl = document.querySelector("input[name=password]");
+      const confirmPasswordEl = document.querySelector(
+        "input[name=confirm-password]"
+      );
+      const emailEl = document.querySelector("input[name=email]");
 
-	<div>
-		<input type="submit" value="Submit" />
-	</div>
-</form>
+      document
+        .getElementById("signup-form")
+        .addEventListener("submit", validateInputs);
 
-<script type="text/javascript">
-
-	const nameEl = document.querySelector("input[name=name]");
-	const usernameEl = document.querySelector("input[name=username]");
-	const passwordEl = document.querySelector("input[name=password]");
-	const confirmPasswordEl = document.querySelector("input[name=confirm-password]");
-	const emailEl = document.querySelector("input[name=email]");
-	
-	document.getElementById("signup-form").addEventListener("submit", validateInputs);
-    
-	function validateInputs(event)
-	{
-
-        if(nameEl.value==""){
-            event.preventDefault();
-            alert("invalid name!!");
+      function validateInputs(event) {
+        if (nameEl.value == "") {
+          event.preventDefault();
+          alert("invalid name!!");
+        } else if (usernameEl.value == "") {
+          event.preventDefault();
+          alert("invalid username!!");
+        } else if (passwordEl.value == "") {
+          event.preventDefault();
+          alert("invalid password!!");
+        } else if (confirmPasswordEl.value == "") {
+          event.preventDefault();
+          alert("please confirm the password");
+        } else if (emailEl.value == "") {
+          event.preventDefault();
+          alert("invalid email!!");
+        } else if (confirmPasswordEl.value != passwordEl) {
+          event.preventDefault();
+          alert("password didn't matched!!");
         }
-        else if(usernameEl.value==""){
-            event.preventDefault();
-            alert("invalid username!!");
-        }
-        else if(passwordEl.value==""){
-            event.preventDefault();
-            alert("invalid password!!");
-        }
-        else if(confirmPasswordEl.value==""){
-            event.preventDefault();
-            alert("please confirm the password");
-        }
-        else if (emailEl.value==""){
-            event.preventDefault();
-            alert("invalid email!!");
-        }
-		else if(confirmPasswordEl.value!=passwordEl){
-            event.preventDefault();
-            alert("password didn't matched!!");
-        }
-	}
-</script>
-</body>
+      }
+    </script>
+  </body>
 </html>
